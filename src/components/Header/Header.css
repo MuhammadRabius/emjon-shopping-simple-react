@@ -1,0 +1,21 @@
+.header-navber {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #1C2B35;
+      padding-left: 140px;
+      padding-right: 140px;
+      height: 80px;
+}
+
+.header-navber a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left: 36px;
+
+}
+
+.header-navber a:hover {
+      color: orange;
+}

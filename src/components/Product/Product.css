@@ -1,0 +1,46 @@
+.product {
+      height: 530px;
+      width: 298px;
+      border: 3px solid gray;
+      border-radius: 20px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      position: relative;
+
+}
+
+.product img {
+      width: 276px;
+      height: 276px;
+      margin-top: 10px;
+      margin-left: 10px;
+      border-radius: 18px;
+
+}
+
+.product h4 {
+      margin-left: 20px;
+}
+
+.product p {
+      margin-left: 20px;
+}
+
+.product button {
+      background-color: #FFE0B3;
+      padding: 12px;
+      font-size: 18px;
+      position: absolute;
+      width: 100%;
+      border: 1px solid #95A0A7;
+      box-sizing: border-box;
+      border-radius: 0px 0px 10px 10px;
+      bottom: 0;
+
+}
+
+.product button:hover {
+      background-color: orange;
+}
