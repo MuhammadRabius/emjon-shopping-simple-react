@@ -16,7 +16,7 @@ const Product = ({product,addToCartClick}) => {
                 
                 <p>Manufacturer: {seller}</p>
                 <p><small>Rating: {ratings} Star</small></p>
-                <button onClick={()=>addToCartClick(product)}>Add to Cart <FontAwesomeIcon icon={ faShoppingCart}></FontAwesomeIcon ></button>
+                <button onClick={()=>addToCartClick(product)} className="addToCart">Add to Cart <FontAwesomeIcon icon={ faShoppingCart}></FontAwesomeIcon ></button>
              </div>
             
       );
