@@ -1,0 +1,23 @@
+.cart-container {
+      border: 2px solid gray;
+      text-align: center;
+      border-radius: 10px;
+      background-color: rgba(255, 153, 0, 0.3);
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      margin-top: 20px;
+      margin-right: 40px;
+      padding: 40px;
+}
+
+.cart-container button {
+      width: 100%;
+      color: white;
+      margin: 10px;
+      padding: 12px;
+      font-size: 18px;
+      background-color: #FF3030;
+      border-radius: 15px;
+}
